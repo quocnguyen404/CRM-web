@@ -1,0 +1,234 @@
+/* Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 62.5%;
+    background-color: #f6f3eb;
+    color: #1f3b34;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    background-color: #ff6b61;
+}
+
+/* 
+1. Vị trí
+2. Kích thước (width, heigth)
+3. Màu sắc
+4. Kiểu dáng
+ */
+
+#main{
+
+}
+
+#header{
+    height: 10.4rem;
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+}
+
+.group_center{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo svg{
+    width: 14rem;
+    height: auto;
+}
+
+.menu_bar{
+    width: 80%;
+    height: 100%;
+}
+
+.header_top_bar, .header_top_menu{
+    width: 98%;
+    height: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header_top_bar{
+
+}
+
+.left_group, .right_group{
+    width: 50%;
+    margin: 0.7rem;
+}
+
+#search{
+    background-image: url(https://icons.veryicon.com/png/256/miscellaneous/easemob-icon/search-934.png);
+    margin-right: 0.5rem;
+}
+
+.left_group{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.right_group{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+a.icon{
+    width: 2.2rem;
+    height: 2.2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.2rem 2.2rem;
+}
+
+#tt{
+    background-image: url(https://icons.veryicon.com/png/256/object/material_design_icons/twitter-163.png);
+}
+
+#fb{
+    background-image: url(https://icons.veryicon.com/png/256/miscellaneous/eva-icon-fill/facebook-144.png);
+}
+
+#mail{
+    background-image: url(https://icons.veryicon.com/png/256/internet--web/billion-square-cloud/email-97.png);
+}
+
+.header_top_menu a{
+    color: #1f3b34;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+a.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #17E1E3;
+    border-radius: 0.2rem;
+}
+
+#banner{
+    height: 35.2rem;
+    background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/banner_image/public/articles/516/xblooming_v19-02.png.pagespeed.ic.CohwoUKu7P.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#leadership{
+    position: absolute;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffdbcf;
+    border-radius: 0.2rem;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+#content{
+    font-size: 1.4rem;
+}
+
+#content hr{
+    height: 0.3rem;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.top_content{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.title{
+    font-size: 6rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.information{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.information .left_group p{
+    margin-right: 7rem;
+}
+
+.information .right_group{
+    width: 50%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.information .social{
+    width: 50%;
+}
+
+#lk{
+    background-image: url(https://icons.veryicon.com/png/256/miscellaneous/unicons/linkedin-99.png);
+}
+
+.mid_content{
+    width: 100%;
+}
+
+
+
+#slider{
+
+}
+
+#footer{
+
+}
