@@ -10,6 +10,7 @@ html, body{
     background-color: #f6f3eb;
     color: #1f3b34;
     overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul{
@@ -20,9 +21,16 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+    color: #1f3b34de;
+}
+
 hr{
     background-color: #ff6b61;
 }
+
+
 
 /* 
 1. Vị trí
@@ -150,13 +158,18 @@ a.subscribe{
     border-radius: 0.2rem;
 }
 
+#banner .group_center{
+    width: 70%;
+    position: relative;
+}
+
 #banner{
-    height: 35.2rem;
+    height: 50rem;
     background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/banner_image/public/articles/516/xblooming_v19-02.png.pagespeed.ic.CohwoUKu7P.webp);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
-    position: relative;
+    
 }
 
 #leadership{
@@ -168,27 +181,26 @@ a.subscribe{
     background-color: #ffdbcf;
     border-radius: 0.2rem;
     bottom: 2rem;
-    left: 2rem;
 }
 
-#content{
-    font-size: 1.4rem;
+#content .group_center{
+    width: 70%;
 }
 
 #content hr{
     height: 0.3rem;
-    width: 98%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .top_content{
-    margin-top: 2rem;
-    width: 100%;
+    width: 95%;
+    margin: 2rem auto;
 }
 
 .title{
     font-size: 6rem;
-    font-weight: 100;
+    font-weight: 500;
     margin-bottom: 2rem;
 }
 
@@ -197,7 +209,6 @@ a.subscribe{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2rem;
 }
 
 .information .left_group p{
@@ -220,9 +231,150 @@ a.subscribe{
 }
 
 .mid_content{
-    width: 100%;
+    width: 70%;
+    margin: 1rem auto;
 }
 
+.mid_content h2{
+    font-size: 4.9rem;
+    font-weight: 100;
+    margin: 4rem 0 2rem;
+}
+
+.mid_content p{
+    font-size: 2.4rem;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.softwares_container{
+    margin: 4rem 0 8rem;
+    width: 100%;
+    height: 40rem;
+    background-color: #fce0d7;
+}
+
+.softwares_container .top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.softwares_container .top h6{
+    margin: 1rem 0;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: 'Courier New', Lucida Console, Monaco;
+}
+
+.softwares_container .top a{
+    position: absolute;
+    right: 1rem;
+}
+
+.top .mention{
+    background-image: url(https://icons.veryicon.com/png/128/application/outline-1/exclamation-circle-8.png);
+}
+
+.softwares_container .bottom{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.softwares_container .subscribe{
+    width: 70%;
+    background-color: #ff584d;
+    font-weight: 200;
+    color: #fff;
+}
+
+.softwares_container .subscribe a:hover{
+    text-decoration: none;
+}
+
+.hubspot{
+    width: 20%;
+    height: 85%;
+    background-color: #fff;
+    margin-left: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.hubspot p{
+    width: 80%;
+    font-size: 1.4rem;
+    text-align: start;
+    margin: 4rem 0;
+}
+
+.hubspot:hover{
+    border: 0.1rem solid #ff584d;
+}
+
+.hubspot_logo{
+    width: 8rem;
+    height: 8rem;
+}
+
+.hubspot h3, .hubspot a, .hubspot_logo, .hubspot p{
+    margin: 2rem auto;
+}
+
+.quote{
+    margin: 4rem 0;
+    background-color: #fde4db;
+    padding: 4rem;
+    border-left: 0.2rem solid #ff584d;
+}
+
+.text_em{
+    color: #ff584d;
+}
+
+.text_bold{
+    font-weight: 600;
+}
+
+.bottom_content{
+    margin: 2rem 0 5rem;
+    width: 100%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.bottom_content .social{
+    margin: 0 auto;
+    width: 20%;
+}
+
+#subscribe{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.2rem solid #ff584d;
+    border-bottom: 0.2rem solid #ff584d;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+#subscribe .social{
+    text-transform: uppercase;
+    width: 70%;
+    font-size: 2rem;
+}
+
+#subscribe_button{
+    width: 20%;
+    background-color: ;
+}
 
 
 #slider{
