@@ -21,7 +21,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+a:hover, .slide a:hover{
     text-decoration: underline;
     color: #1f3b34de;
 }
@@ -118,6 +118,10 @@ a.icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2.2rem 2.2rem;
+}
+
+a.icon:hover{
+    opacity: 0.5;
 }
 
 #tt{
@@ -324,6 +328,7 @@ a.subscribe{
 
 .hubspot h3, .hubspot a, .hubspot_logo, .hubspot p{
     margin: 2rem auto;
+    font-size: 1.4rem;
 }
 
 .quote{
@@ -354,11 +359,11 @@ a.subscribe{
 }
 
 #subscribe{
-    width: 70%;
+    width: 80%;
     height: 100%;
-    border-top: 0.2rem solid #ff584d;
-    border-bottom: 0.2rem solid #ff584d;
-    padding: 4rem 0;
+    border-top: 0.1rem solid #ff584d;
+    border-bottom: 0.1rem solid #ff584d;
+    padding: 6rem 0;
     margin: 0 auto;
 }
 
@@ -389,11 +394,50 @@ a.subscribe{
 }
 
 #slider{
-    width: ;
+    margin: 4rem 0;
+    height: 100%;
 }
 
-#slider .slide h2{
+#slider h2{
+    width: 20%;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid #000;
+    margin: 0 auto 3rem;
+}
 
+.slide{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img{
+    width: 95%;
+    margin-bottom: 2rem;
+    position:relative;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img:hover{
+    opacity: 0.8;
+}
+
+.slide ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.slide a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
 }
 
 #footer{
