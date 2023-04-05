@@ -7,7 +7,7 @@
 
 html, body{
     font-size: 62.5%;
-    background-color: #f6f3eb;
+    background-color: #fee5e2;
     color: #1f3b34;
     overflow-x: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,8 +30,6 @@ hr{
     background-color: #ff6b61;
 }
 
-
-
 /* 
 1. Vị trí
 2. Kích thước (width, heigth)
@@ -43,9 +41,9 @@ hr{
 }
 
 #header{
-    height: 10.4rem;
     font-size: 1.5rem;
-    padding-top: 0.4rem;
+    background-color: #f6f3eb;
+    padding: 1rem auto;
 }
 
 .group_center{
@@ -55,6 +53,9 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #f6f3eb;
+    border-radius: 0.3rem;
+    padding: 2rem 0;
 }
 
 #logo svg{
@@ -87,6 +88,7 @@ hr{
     background-image: url(https://icons.veryicon.com/png/256/miscellaneous/easemob-icon/search-934.png);
     margin-right: 0.5rem;
 }
+
 
 .left_group{
     display: flex;
@@ -136,6 +138,10 @@ a.icon:hover{
     background-image: url(https://icons.veryicon.com/png/256/internet--web/billion-square-cloud/email-97.png);
 }
 
+.header_top_menu {
+    margin: 1rem 0;
+}
+
 .header_top_menu a{
     color: #1f3b34;
 }
@@ -164,6 +170,7 @@ a.subscribe{
 #banner .group_center{
     width: 70%;
     position: relative;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #banner{
@@ -171,8 +178,8 @@ a.subscribe{
     background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/banner_image/public/articles/516/xblooming_v19-02.png.pagespeed.ic.CohwoUKu7P.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 1rem;
-    
+    padding-top: 1rem;
+    position: relative;
 }
 
 #leadership{
@@ -216,6 +223,7 @@ a.subscribe{
 
 .information .left_group p{
     margin-right: 7rem;
+    font-size: 1.4rem;
 }
 
 .information .right_group{
@@ -347,10 +355,11 @@ a.subscribe{
 }
 
 .bottom_content{
-    margin: 2rem 0 5rem;
+    padding: 2rem 0 5rem;
     width: 100%;
     font-size: 2rem;
     text-transform: uppercase;
+    background-color: #f6f3eb;
 }
 
 .bottom_content .social{
@@ -359,12 +368,13 @@ a.subscribe{
 }
 
 #subscribe{
-    width: 80%;
+    width: 70%;
     height: 100%;
     border-top: 0.1rem solid #ff584d;
     border-bottom: 0.1rem solid #ff584d;
     padding: 6rem 0;
     margin: 0 auto;
+    background-color: #f6f3eb;
 }
 
 #subscribe .social{
@@ -385,6 +395,7 @@ a.subscribe{
     background: linear-gradient(to right,rgba(211,249,250,.5) 0%,rgba(255,107,97,.1) 49%,rgba(255,107,97,.1) 50%,rgba(211,249,250,.5) 100%);
     border: 0.1rem solid #ff584d;
     color: #000;
+    text-transform: uppercase;
 }
 
 #subscribe_button:hover{
@@ -394,8 +405,11 @@ a.subscribe{
 }
 
 #slider{
-    margin: 4rem 0;
+    width: 70%;
+    margin: 0 auto 10rem;
     height: 100%;
+    padding: 4rem 0;
+    background-color: #f6f3eb;
 }
 
 #slider h2{
@@ -430,7 +444,6 @@ a.subscribe{
 
 .slide ul{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 
@@ -441,5 +454,67 @@ a.subscribe{
 }
 
 #footer{
+    padding: 2rem 0;
+    background-color: #f6f3eb;  
+    font-size: 1.4rem;
+    width: 100%;
+}
 
+
+#footer > .group_center{
+    display: list-item;
+    list-style: none;
+}
+
+#footer p{
+    margin: 3rem auto;
+    width: 60%;
+    color: #955e57;
+}
+
+.top_footer, .footer_menu{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.top_footer h3{
+    margin: 2rem 0;
+    color: #955e57;
+    font-weight: 100;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+
+.top_footer input{
+    width: 20rem;
+    height: 4rem;
+}
+
+.footer_menu ul {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto; 
+}
+
+.footer_menu ul a, .footer_menu > a{
+    color: #955e57;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.footer_menu ul a:hover, .footer_menu > a:hover{
+    opacity: 0.7;
+}
+
+.logo_footer{
+    width: 6%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.logo_footer:hover{
+    opacity: 0.5;
 }
