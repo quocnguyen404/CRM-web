@@ -30,16 +30,6 @@ hr{
     background-color: #ff6b61;
 }
 
-/* 
-1. Vị trí
-2. Kích thước (width, heigth)
-3. Màu sắc
-4. Kiểu dáng
- */
-
-#main{
-}
-
 #header{
     font-size: 1.5rem;
     background-color: #f6f3eb;
@@ -73,10 +63,6 @@ hr{
     height: 50%;
     display: flex;
     margin: 0 auto;
-}
-
-.header_top_bar{
-
 }
 
 .left_group, .right_group{
