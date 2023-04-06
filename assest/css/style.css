@@ -133,10 +133,10 @@ a.icon:hover{
 }
 
 .menu{
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 55%;
     text-transform: uppercase;
     font-size: 1.6rem;
 }
@@ -398,8 +398,8 @@ a.subscribe{
     background-color: #f6f3eb;
 }
 
-#slider h2{
-    width: 20%;
+#slider h2, #slider_show h2{
+    width: 30%;
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
@@ -410,7 +410,7 @@ a.subscribe{
 }
 
 .slide{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -437,6 +437,31 @@ a.subscribe{
     font-size: 2rem;
     text-decoration: none;
     color: #000;
+}
+
+#slider_show{
+    background-color: #f6f3eb;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.left_arrow, .right_arrow{
+    position: absolute;
+    width: 5%;
+    height: 5%;
+}
+
+.left_arrow{
+    background-image: url(https://icons.veryicon.com/png/256/miscellaneous/eva-icon-fill/arrow-left-35.png);
+}
+
+.slide_img{
+    position: relative;
+}
+
+.right_arrow{
+    background-image: url(https://icons.veryicon.com/png/256/miscellaneous/eva-icon-fill/arrow-right-38.png);
+
 }
 
 #footer{
