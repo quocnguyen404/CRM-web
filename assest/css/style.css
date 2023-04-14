@@ -10,7 +10,7 @@ html, body{
     background-color: #fee5e2;
     color: #1f3b34;
     overflow-x: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 ul{
@@ -21,13 +21,8 @@ a{
     text-decoration: none;
 }
 
-a:hover, .slide a:hover{
+a:hover{
     text-decoration: underline;
-    color: #1f3b34de;
-}
-
-hr{
-    background-color: #ff6b61;
 }
 
 #header{
@@ -48,7 +43,7 @@ hr{
     padding: 2rem 0;
 }
 
-#logo svg{
+#logo {
     width: 14rem;
     height: auto;
 }
@@ -548,9 +543,12 @@ a.subscribe{
 }
 
 .logo_footer{
-    width: 6%;
+    width: 10rem;
     margin: 0 auto;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo_footer:hover{
