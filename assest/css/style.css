@@ -9,7 +9,6 @@ html, body{
     background-color: #f6f3eb;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
-    font-weight: 400;
 }
 
 ul{
@@ -27,6 +26,14 @@ a:hover{
     text-decoration: underline;
 }
 
+.span_color{
+    color: #ff6b61;
+}
+
+#page{
+    font-size: 1.6rem;
+}
+
 #header{
     font-size: 1.4rem;
     padding-top: 1rem;
@@ -41,7 +48,7 @@ a:hover{
 }
 
 .bi-search{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 #search_input{
@@ -50,10 +57,8 @@ a:hover{
     outline: none;
     padding-left: 1rem;
     width: 35rem;
-}
-
-.social_media{
-
+    font-size: 1.6rem;
+    font-weight: 300;
 }
 
 .icon{
@@ -67,12 +72,49 @@ a:hover{
 }
 
 .advertising{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #ff6b61;
-    font-weight: 550;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    position: relative;
+    cursor: pointer;
 }
 
+.advertising_tab{
+    color: #000;
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 70%;
+    top: 0;
+    bottom: 0;
+    background-color: #f6f3eb;
+    font-weight: 300;
+    font-size: 1.5rem;
+    overflow-y: auto;
+}
+
+.exit{
+    position: absolute;
+    margin-top: 1rem;
+    right: 5%;
+}
+
+.advertising_tab .bi-x-lg{
+    font-size: 2.5rem;
+    color: #1f3b34;
+    cursor: pointer;
+}
+
+.advertising_tab h4{
+    padding-top: 9rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.advertising_tab p{
+    margin: 0.5rem
+}
 
 .top_header{
     padding-bottom: 0.5rem;
@@ -80,9 +122,8 @@ a:hover{
 }
 
 .bottom_header{
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     color: #1f3b34;
-    
 }
 
 .bottom_header a:hover{
@@ -93,11 +134,36 @@ a:hover{
 
 .menu{
     padding: 1rem;
+    font-weight: 399; 
+    font-size: 1.7rem;  
 }
 
 .button{
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 399;
+    padding: .5rem 1rem;
     background-color: #18e4e4;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover{
+    opacity: .8;
+}
+
+#advertising{
+    padding: 4rem 0 3rem;
+}
+
+#advertising .sologan{
+    font-size: 7.5rem;
+    background: linear-gradient(to bottom,#17e1e3 25%,#ff6b61 90%);
+    color: transparent;
+    background-clip: text;
+    line-height: 1.25;
+}
+
+#advertising .web_sologan{
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    letter-spacing: 0.3rem;
 }
