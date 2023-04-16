@@ -149,6 +149,10 @@ a:hover{
     opacity: .8;
 }
 
+.gap{
+    margin-bottom: 4rem;
+}
+
 #advertising{
     padding: 4rem 0 3rem;
 }
@@ -167,3 +171,28 @@ a:hover{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
     letter-spacing: 0.3rem;
 }
+
+#advertising img{
+    width: 100%;
+}
+
+#advertising img:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.descript{
+    background-color: #fff;
+}
+
+.descript a{
+    font-size: 4rem;
+}
+
+.descript p{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+
