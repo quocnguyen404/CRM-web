@@ -5,6 +5,7 @@
     --text-normal: #1f3b34; 
     --bg-button: #18e4e4;
     --bg-white: #fff;
+    --bg-area: #f8e1d9;
 }
 
 body::-webkit-scrollbar{
@@ -108,10 +109,11 @@ a:hover{
     right: 0;
     left: 70%;
     top: 0;
-    bottom: 0;
     background-color: var(--bg-color);
     font-weight: 300;
     font-size: 1.5rem;
+    padding-left: 3rem;
+    overflow-x: hidden;
     overflow-y: auto;
 }
 
@@ -221,12 +223,51 @@ a:hover{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
 }
 
+.margin-bottom{
+    margin-bottom: 8rem;
+}
+
 .descript p{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 2.4rem;
 }
 
+.get-free{
+    background-color: var(--bg-area);
+}
 
+.get-free > title{
+    font-weight: 100;
+    color: var(--text-normal);
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+}
+
+.bi-exclamation-circle{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.video-header{
+    width: 100%;
+    background: linear-gradient(to bottom, #000, #fff);
+    color: var(--bg-white);
+    font-size: 2rem;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    float: left;
+}
+
+.channel-logo{
+    float: left;
+    border-radius: 50%;
+    background-image: url(https://yt3.googleusercontent.com/ytc/AGIKgqMNw7PoFo0SK2PflHPkaaJHzH-dVI-AeHKQq-Wv=s176-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.play-btn > .bi-play-fill{
+    font-size: 3rem;
+}
 
 
