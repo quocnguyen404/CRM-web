@@ -12,5 +12,6 @@ $(document).ready(function(){
         $("#tab").fadeOut();
     });
 
+    $("#video-player").autoplay = true;
     
 });

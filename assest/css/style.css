@@ -115,6 +115,8 @@ a:hover{
     padding-left: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
+    position: fixed;
+    height: 100vh;
 }
 
 .exit{
@@ -259,6 +261,10 @@ a:hover{
     font-weight: 399;
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
 }
 
 .video-header p{
@@ -290,6 +296,7 @@ a:hover{
 
 .video-container .video-content{
     width: 100%;
+    position: relative;
 }
 
 
