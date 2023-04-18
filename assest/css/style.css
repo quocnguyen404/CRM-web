@@ -206,14 +206,14 @@ a:hover{
 }
 
 .descript{
-    padding:2rem 1rem 2rem 3rem;
+    padding: 1rem;
     background-color: var(--bg-white);
     border-top: solid var(--text-em-color) 0.2rem;
     box-sizing: border-box;
 }
 
 .descript a{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 399;
     color: var(--text-normal);
 }
@@ -230,7 +230,7 @@ a:hover{
 .descript p{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
     font-weight: 100;
-    font-size: 2.4rem;
+    font-size: 1.9rem;
 }
 
 .get-free{
@@ -248,17 +248,28 @@ a:hover{
     cursor: pointer;
 }
 
-.video-header{
-    width: 100%;
-    background: linear-gradient(to bottom, #000, #fff);
-    color: var(--bg-white);
-    font-size: 2rem;
-    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
-    float: left;
+.video-container{
+    position: relative;
 }
 
+.video-header{
+    background: linear-gradient(to bottom, #614d4d, transparent);
+    color: var(--bg-white);
+    font-size: 2rem;
+    font-weight: 399;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    position: absolute;
+}
+
+.video-header p{
+    margin: 0;
+}
+
+
 .channel-logo{
-    float: left;
+    margin: 0.5rem 0;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background-image: url(https://yt3.googleusercontent.com/ytc/AGIKgqMNw7PoFo0SK2PflHPkaaJHzH-dVI-AeHKQq-Wv=s176-c-k-c0x00ffffff-no-rj);
     background-repeat: no-repeat;
@@ -266,8 +277,19 @@ a:hover{
     background-size: 100%;
 }
 
-.play-btn > .bi-play-fill{
-    font-size: 3rem;
+.ytb-icon{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.ytb-icon p{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 399;
+}
+
+.video-container .video-content{
+    width: 100%;
 }
 
 
