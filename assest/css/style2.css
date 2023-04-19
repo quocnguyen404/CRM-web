@@ -1,0 +1,86 @@
+:root{
+    --bg-color: #f6f3eb;
+    --text-em-color: #ff6b61;
+    --text-black: #000;
+    --text-normal: #1f3b34; 
+    --bg-button: #18e4e4;
+    --bg-white: #fff;
+    --bg-area: #f8e1d9;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: var(--bg-color);
+    font-size: 62.5%;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+#page{
+    background-color: var(--bg-color);
+    font-size: 2rem;
+    color: var(--text-normal);
+}
+
+#header{
+    background-color: var(--bg-color);
+}
+
+.logo-header{
+    height: 3.2rem;
+    background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/themes/crmorg_v1/xlogo.png.pagespeed.ic.VnKnWS2IXc.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bi-search{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    align-self: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    background-color: var(--bg-color);
+}
+
+.text-em{
+    color: var(--text-em-color);
+    font-weight: 500;
+}
+
+.advertising-container{
+    /* position: relative; */
+}
+
+.advertising-tab{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 75%;
+    background-color: var(--bg-color);
+    color: var(--text-normal);
+    /* position: fixed; */
+    /* overflow-x: hidden; */
+}
+
+.bold-black{
+    color: var(--text-normal);
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+
+

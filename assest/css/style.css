@@ -66,7 +66,7 @@ a:hover{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
 }
 
-.header_logo{
+.header-logo{
     width: 15rem;
 }
 
@@ -78,8 +78,6 @@ a:hover{
     border: none;
     background: transparent;
     outline: none;
-    padding-left: 1rem;
-    width: 35rem;
     font-size: 1.6rem;
     font-weight: 300;
 }
@@ -109,14 +107,13 @@ a:hover{
     right: 0;
     left: 70%;
     top: 0;
+    bottom: 0;
     background-color: var(--bg-color);
     font-weight: 300;
     font-size: 1.5rem;
     padding-left: 3rem;
     overflow-x: hidden;
-    overflow-y: auto;
     position: fixed;
-    height: 100vh;
 }
 
 .exit{
@@ -142,7 +139,7 @@ a:hover{
     margin: 0.5rem
 }
 
-.top_header{
+.top-header{
     padding-bottom: 0.5rem;
     border-bottom: solid var(--text-em-color) 0.1rem;
 }
@@ -273,7 +270,7 @@ a:hover{
 
 
 .channel-logo{
-    margin: 0.5rem 0;
+    margin: 0 1rem;
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
@@ -299,4 +296,7 @@ a:hover{
     position: relative;
 }
 
+.card{
+    width: 18rem;
+}
 
