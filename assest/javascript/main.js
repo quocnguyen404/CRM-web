@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    var dnone = "d-none";
+
     $(".advertising").click(function(){
         $("#tab").fadeIn();
     });
@@ -13,5 +15,5 @@ $(document).ready(function(){
     });
 
     $("#video-player").autoplay = true;
-    
+
 });
