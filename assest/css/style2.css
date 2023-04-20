@@ -8,7 +8,8 @@
     --text-normal: #1f3b34; 
     --bg-button: #18e4e4;
     --bg-white: #fff;
-    --bg-area: #f8e1d9;
+    --bg-area: #fce0d7;
+    --bg-news: #ffdbcf;
 }
 
 *{
@@ -46,7 +47,7 @@ a{
 }
 
 .logo-header{
-    height: 3.6em;
+    height: 3.6rem;
     background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/themes/crmorg_v1/xlogo.png.pagespeed.ic.VnKnWS2IXc.webp);
     background-size: contain;
     background-repeat: no-repeat;
@@ -74,10 +75,6 @@ input.header-input{
     color: var(--text-em-color);
     font-weight: 500;
     cursor: pointer;
-}
-
-.advertising-container{
-    /* position: relative;  */
 }
 
 .advertising-tab{
@@ -114,7 +111,6 @@ input.header-input{
 }
 
 .menu{
-    font-size: 1.6em;
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Schibsted Grotesk', sans-serif;
@@ -125,19 +121,19 @@ input.header-input{
     border-radius: 0.2em;
     color: var(--text-normal);
     text-transform: uppercase;
-    font-size: 1.5em;
     padding: 0.5em 0;
 }
 
 #sologan{
     background-color: var(--bg-color);
+    margin: 4rem 0;
 }
 
 .big-sologan{
     background-image: linear-gradient(rgb(23, 225, 227) 25%, rgb(255, 107, 97) 90%);
     background-clip: text;
     color: transparent;
-    font-size: 7rem;
+    font-size: 7.3rem;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
 }
@@ -156,13 +152,122 @@ input.header-input{
 .img{
     background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/article_thumbnail/public/crmland/633/xcrmland_best_crm_software-header-art_final_1.png.pagespeed.ic.ff-QxVegit.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     /* height: auto; */
 }
 
 .description{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: start;
-    font-weight: 300;
+    font-weight: 100;
+    color: var(--text-normal);
+    border-top: solid 0.25rem var(--bg-button);
+    background-color: var(--bg-white);
+    padding: 1rem 1rem 5rem;
 }
+
+.description .description-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.margin-top{
+    margin-top: 6rem;
+}
+
+#after-sologan .title{
+    font-size: 2rem;
+    background-color: var(--bg-area);
+    font-weight: 100;
+}
+
+.video-container{
+    position: relative;
+}
+
+.header-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #251b1b, transparent);
+    padding: 1rem;
+}
+
+.channel{
+    border-radius: 50%;
+}
+
+.video-title{
+    color: var(--bg-white);
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+#lastest-news .title{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.underline{
+    background: linear-gradient(to right,#ff6b61 0%,#17e1e3 100%);
+    background-size: 100% 0.2rem;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    padding-bottom: 0.5rem;
+}
+
+.card{
+    background-color: var(--bg-color);
+    border: none;
+    padding: 1rem;
+}
+
+.card:hover{
+    background-color: var(--bg-white);
+}
+
+.card-body{
+    padding: 1rem 0;
+}
+
+.card-text{
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-normal);
+    background-color: var(--bg-news);
+    border-radius: 3%;
+}
+
+.card-title{
+    color: var(--text-normal);
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-text:hover, .card-title:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: var(--text-em-color);
+    text-decoration-thickness: 0.2rem;
+}
+
+.load-more{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    color: var(--text-normal);
+    font-weight: 399;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    border: solid var(--text-em-color) 0.1rem;
+    background: linear-gradient(to right,rgba(211,249,250,.5) 0%,rgba(255,107,97,.1) 49%,rgba(255,107,97,.1) 50%,rgba(211,249,250,.5) 100%);
+}
+
+.load-more:hover{
+    color: var(--text-em-color);
+    cursor: pointer;
+}
+
+

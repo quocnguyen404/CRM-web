@@ -9,4 +9,10 @@ $(document).ready(function(){
             $(this).fadeOut("1000");
         })
     })
+
+    $(".load-more").click(function(){
+        $(this).hide();
+    })
+
+    
 })
