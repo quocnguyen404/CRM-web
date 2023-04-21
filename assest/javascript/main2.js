@@ -10,9 +10,5 @@ $(document).ready(function(){
         })
     })
 
-    $(".load-more").click(function(){
-        $(this).hide();
-    })
-
     
 })

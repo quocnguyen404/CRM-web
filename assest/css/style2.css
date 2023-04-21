@@ -10,6 +10,7 @@
     --bg-white: #fff;
     --bg-area: #fce0d7;
     --bg-news: #ffdbcf;
+    --bg-sub: #eaeff6;
 }
 
 *{
@@ -157,6 +158,11 @@ input.header-input{
     /* height: auto; */
 }
 
+.img:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
 .description{
     font-size: 2.5rem;
     text-align: start;
@@ -165,6 +171,7 @@ input.header-input{
     border-top: solid 0.25rem var(--bg-button);
     background-color: var(--bg-white);
     padding: 1rem 1rem 5rem;
+    cursor: pointer;
 }
 
 .description .description-title{
@@ -174,6 +181,10 @@ input.header-input{
 
 .margin-top{
     margin-top: 6rem;
+}
+
+.margin-bot{
+    margin-bottom: 6rem;
 }
 
 #after-sologan .title{
@@ -205,7 +216,7 @@ input.header-input{
     opacity: 0.8;
 }
 
-#lastest-news .title{
+#lastest-news .title, #most-views .title{
     font-size: 2.5rem;
     font-weight: 100;
 }
@@ -228,6 +239,10 @@ input.header-input{
     background-color: var(--bg-white);
 }
 
+.card-img-top{
+
+}
+
 .card-body{
     padding: 1rem 0;
 }
@@ -248,7 +263,7 @@ input.header-input{
     font-family: 'Playfair Display', serif;
 }
 
-.card-text:hover, .card-title:hover{
+.card-text:hover, .card-title:hover, .description-title:hover{
     cursor: pointer;
     text-decoration: underline;
     text-decoration-color: var(--text-em-color);
@@ -268,6 +283,34 @@ input.header-input{
 .load-more:hover{
     color: var(--text-em-color);
     cursor: pointer;
+}
+
+#sub-area{
+    background-color: var(--bg-sub);
+}
+
+#sub-area .title{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    color: var(--text-normal);
+}
+
+.sub-sologan{
+    text-transform: uppercase;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+}
+
+.sub-btn-area{
+    border-left: none;
+}
+
+#sub-area input{
+    padding: 1rem;
+    
+}
+
+.line-height{
+    /* line-height: 100%; */
+    line-height: normal;
 }
 
 
