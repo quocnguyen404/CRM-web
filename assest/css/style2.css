@@ -112,10 +112,14 @@ input.header-input{
     padding-top: 1.5rem;
 }
 
-.menu{
-    font-weight: 500;
+.bot-nav-bar .menu{
     text-transform: uppercase;
     font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.bot-nav-bar .menu .h3{
+    font-weight: 500;
+    color: var(--text-normal);
 }
 
 .subscribe-btn{
@@ -312,9 +316,8 @@ input.header-input{
 }
 
 #sub-area input, #footer input{
-    padding: 1.5rem;
+    padding: 2rem;
     outline: none;
-    
 }
 
 .line-height{
@@ -329,6 +332,11 @@ input.header-input{
     word-wrap: break-word;
     letter-spacing: 0.2rem;
     color: var(--text-black);
+}
+
+#footer .footer-menu{
+    text-transform: uppercase;
+    
 }
 
 .footer-menu:hover{
@@ -411,4 +419,13 @@ input.header-input{
     color: var(--text-normal);
     border-color: var(--text-em-color);
     border-width: 0.1rem;
+}
+
+#content .form .submit-btn{
+    font-weight: 399;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+}
+
+#content .form .submit-btn:hover{
+    color: var(--text-em-color);
 }
