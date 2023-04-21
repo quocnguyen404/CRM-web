@@ -11,6 +11,7 @@
     --bg-area: #fce0d7;
     --bg-news: #ffdbcf;
     --bg-sub: #eaeff6;
+    --text-footer: #284b44;
 }
 
 *{
@@ -122,7 +123,7 @@ input.header-input{
     border-radius: 0.2em;
     color: var(--text-normal);
     text-transform: uppercase;
-    padding: 0.5em 0;
+    padding: 1rem 0.5rem;
 }
 
 #sologan{
@@ -134,7 +135,7 @@ input.header-input{
     background-image: linear-gradient(rgb(23, 225, 227) 25%, rgb(255, 107, 97) 90%);
     background-clip: text;
     color: transparent;
-    font-size: 7.3rem;
+    font-size: 6.5rem;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
 }
@@ -239,10 +240,6 @@ input.header-input{
     background-color: var(--bg-white);
 }
 
-.card-img-top{
-
-}
-
 .card-body{
     padding: 1rem 0;
 }
@@ -301,16 +298,30 @@ input.header-input{
 
 .sub-btn-area{
     border-left: none;
+    font-weight: 399;
 }
 
-#sub-area input{
-    padding: 1rem;
+#sub-area input, #footer input{
+    padding: 1.5rem;
+    outline: none;
     
 }
 
 .line-height{
     /* line-height: 100%; */
     line-height: normal;
+}
+
+#footer .h4{
+    font-weight: 100;
+    color: var(--text-footer);
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    word-wrap: break-word;
+    letter-spacing: 0.2rem;
+}
+
+#footer .sub-sologan{
+    font-weight: 100;
 }
 
 
