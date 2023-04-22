@@ -492,6 +492,10 @@ input.header-input{
     background-size: 50%;
 }
 
+#spacing{
+    padding: 25rem;
+}
+
 #sliding .card{
     border-radius: 0;
     border-bottom: solid var(--text-em-color) 0.1rem;
@@ -511,7 +515,7 @@ input.header-input{
 
 #sliding .card .card-body .card-title{
     font-family: 'Playfair Display', serif;
-    font-size: 3.4vw;
+    font-size: 3vw;
 }
 
 #sliding .card .card-body .card-text{
@@ -536,4 +540,18 @@ input.header-input{
     opacity: 1;
 }
 
+.sliding-selector .menu-number{
+    background-color: var(--bg-white);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
 
+}
+
+.sliding-selector .number-item{
+    font-size: 1.2vw;
+    padding: 0;
+    text-align: center;
+}
