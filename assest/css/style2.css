@@ -451,8 +451,6 @@ input.header-input{
     font-weight: 399;
 }
 
-/* news page */
-
 #news .description{
     background-color: transparent;
     border-top: none;
@@ -487,3 +485,55 @@ input.header-input{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#news .arrow-down{
+    height: 11vh;
+    background: url(https://dq51jve9h21d4.cloudfront.net/sites/default/themes/crmorg_v1/images/down-arrow-graded.svg) center center no-repeat;
+    background-size: 50%;
+}
+
+#sliding .card{
+    border-radius: 0;
+    border-bottom: solid var(--text-em-color) 0.1rem;
+}
+
+#sliding .card:hover{
+    background-color: transparent;
+}
+
+#sliding .card-right-bd{
+    border-right: solid var(--text-em-color) 0.1rem;
+}
+
+#sliding .card-left-bd{
+    border-left: solid var(--text-em-color) 0.1rem;
+}
+
+#sliding .card .card-body .card-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4vw;
+}
+
+#sliding .card .card-body .card-text{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    text-transform: none;
+    background-color: transparent;
+    text-align: start;
+    font-size: 2vw;
+}
+
+#sliding .card .card-body .card-text:hover{
+    text-decoration: none;
+    cursor: text;
+}
+
+#sliding img.card-img-top:hover{
+    opacity: 0.8 !important;
+}
+
+#sliding .card:hover .card-img-top{
+    opacity: 1;
+}
+
+
