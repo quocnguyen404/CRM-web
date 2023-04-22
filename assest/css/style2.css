@@ -79,6 +79,10 @@ input.header-input{
     cursor: pointer;
 }
 
+.social-media .icon:hover{
+    opacity: 0.8;
+}
+
 .advertising-tab{
     display: none;
     position: absolute;
@@ -180,7 +184,7 @@ input.header-input{
 }
 
 .description .description-title{
-    font-size: 3rem;
+    font-size: calc(1.5rem + 1vw);
     font-weight: 600;
 }
 
@@ -428,4 +432,58 @@ input.header-input{
 
 #content .form .submit-btn:hover{
     color: var(--text-em-color);
+}
+
+/* crmland page */
+
+
+#sologan-crmland .big-sologan{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: calc(10rem + 1.5vw);
+}
+
+#sologan-crmland .small-sologan{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    font-size: calc(1.3vw);
+    color: var(--text-normal);
+    font-weight: 399;
+}
+
+/* news page */
+
+#news .description{
+    background-color: transparent;
+    border-top: none;
+    border-left: solid var(--text-em-color) 0.2rem;
+    border-bottom: solid var(--text-em-color) 0.2rem;
+}
+
+#news .description-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4vw;
+    font-weight: 500;
+}
+
+#news .description p{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    font-size: 2.4vw;
+    font-weight: 100;
+    color: var(--text-normal);
+}
+
+#news .description p:hover{
+    cursor: text;
+    color: var(--text-normal);
+}
+
+#news .description-margin{
+    margin-top: 5vh;
+}
+
+#news .description-img{
+    background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/featured_article_thumbnail/public/crmland/231/xartboard_copycrmland-3.png,qitok=MBwGCK-y.pagespeed.ic.Bn7g5ERoqz.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
