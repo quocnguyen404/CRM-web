@@ -12,6 +12,7 @@
     --bg-news: #ffdbcf;
     --bg-sub: #eaeff6;
     --text-footer: #284b44;
+    --bg-digital: #ffdbcf;
 }
 
 *{
@@ -116,6 +117,11 @@ input.header-input{
     padding-top: 1.5rem;
 }
 
+.bot-nav-bar .text-menu-header{
+    font-size: calc(0.2rem + 1.1vw);
+    font-weight: bold;
+}
+
 .bot-nav-bar .menu{
     text-transform: uppercase;
     font-family: 'Schibsted Grotesk', sans-serif;
@@ -132,6 +138,7 @@ input.header-input{
     color: var(--text-normal);
     text-transform: uppercase;
     padding: 1rem 0.5rem;
+    font-size: calc(0.2rem + 1.1vw);
 }
 
 #sologan{
@@ -173,7 +180,7 @@ input.header-input{
 }
 
 .description{
-    font-size: 2.5rem;
+    font-size: calc(1rem + 1vw);
     text-align: start;
     font-weight: 100;
     color: var(--text-normal);
@@ -225,7 +232,7 @@ input.header-input{
 
 .video-title{
     color: var(--bg-white);
-    font-size: 2rem;
+    font-size: calc(0.5rem + 1vw);
     opacity: 0.8;
 }
 
@@ -317,6 +324,7 @@ input.header-input{
 .sub-btn-area{
     border-left: none;
     font-weight: 399;
+    font-size: calc(0.4rem + 1.1vw);
 }
 
 #sub-area input, #footer input{
@@ -404,7 +412,6 @@ input.header-input{
 }
 
 #content .form input{
-    text-transform: uppercase;
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
     font-weight: 100;
     outline: none;
@@ -466,7 +473,7 @@ input.header-input{
 
 #news .description p{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
-    font-size: 2.4vw;
+    font-size: 2vw;
     font-weight: 100;
     color: var(--text-normal);
 }
@@ -480,7 +487,7 @@ input.header-input{
     margin-top: 5vh;
 }
 
-#news .description-img{
+#news .description-img-crmland{
     background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/featured_article_thumbnail/public/crmland/231/xartboard_copycrmland-3.png,qitok=MBwGCK-y.pagespeed.ic.Bn7g5ERoqz.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -540,18 +547,54 @@ input.header-input{
     opacity: 1;
 }
 
-.sliding-selector .menu-number{
-    background-color: var(--bg-white);
-    border-top-left-radius: 25%;
-    border-top-right-radius: 25%;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
-
-}
-
 .sliding-selector .number-item{
     font-size: 1.2vw;
-    padding: 0;
+    padding: 1vw;
     text-align: center;
+    background-color: var(--bg-white);
+    color: var(--text-normal);
+}
+.sliding-selector .number-item:hover{
+    opacity: .8;
+    text-decoration: underline;
+    text-decoration-color: var(--text-em-color);
+}
+
+
+.sliding-selector .number-item:first-child{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.sliding-selector .number-item:last-child{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* news page */
+
+#news .description .card-text{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+#news .description-img-news{
+    background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/featured_article_thumbnail/public/news/1139/x376_a-v10b.png,qitok=tQVXvEla.pagespeed.ic.Itx7VXV1PF.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sliding .card .card-text-2{
+    background-color: var(--bg-digital) !important;
+    font-weight: 300 !important;
+    font-size: 1.2vw !important;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif !important;
+}
+
+/* bloom page */
+
+#news .description-img-bloom{
+    background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/featured_article_thumbnail/public/articles/545/xblooming_v18-02.png,qitok=oitt9x-6.pagespeed.ic.cpJO0rt_2v.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
