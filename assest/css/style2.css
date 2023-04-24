@@ -132,6 +132,16 @@ input.header-input{
     color: var(--text-normal);
 }
 
+.bot-nav-bar .menu-responsive{
+    position: relative;
+}
+
+.bot-nav-bar .menu-responsive:hover{
+    cursor: pointer;
+}
+
+
+
 .subscribe-btn{
     background-color: var(--bg-button);
     border-radius: 0.2em;
