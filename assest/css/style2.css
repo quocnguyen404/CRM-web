@@ -127,20 +127,6 @@ input.header-input{
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
-.bot-nav-bar .menu .h3{
-    font-weight: 500;
-    color: var(--text-normal);
-}
-
-.bot-nav-bar .menu-responsive{
-    position: relative;
-}
-
-.bot-nav-bar .menu-responsive:hover{
-    cursor: pointer;
-}
-
-
 
 .subscribe-btn{
     background-color: var(--bg-button);

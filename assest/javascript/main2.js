@@ -10,5 +10,8 @@ $(document).ready(function(){
         })
     })
 
-    
+    $(".menu-responsive").click(function(){
+        $(".menu-mini").show();
+    })
+
 })
