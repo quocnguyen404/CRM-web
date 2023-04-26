@@ -25,7 +25,6 @@ html, body{
     font-size: 62.5%;
     overflow-x: hidden;
     box-sizing: border-box;
-    position: relative;
 }
 
 ul{
@@ -39,8 +38,12 @@ a{
     color: var(--text-normal);
 }
 
+a:hover{
+    color: var(--text-normal);
+}
+
 #page{
-    background-color: var(--bg-color);
+    background: linear-gradient(to bottom,#f6f3eb 9.93%,#ffe4e2 100%);
     font-size: 2rem;
     color: var(--text-normal);
 }
@@ -90,7 +93,6 @@ input.header-input{
     top: 0;
     right: 0;
     height: 100vh;
-    /* left: 75%; */
     background-color: var(--bg-color);
     color: var(--text-normal);
     position: fixed;
@@ -122,7 +124,7 @@ input.header-input{
     font-weight: bold;
 }
 
-.bot-nav-bar .menu{
+.bot-nav-bar .menu, .bi-list .menu{
     text-transform: uppercase;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
@@ -146,14 +148,14 @@ input.header-input{
     background-image: linear-gradient(rgb(23, 225, 227) 25%, rgb(255, 107, 97) 90%);
     background-clip: text;
     color: transparent;
-    font-size: 6.5rem;
+    font-size: calc(5rem + 1.5vw);
     font-weight: 500;
     font-family: 'Playfair Display', serif;
 }
 
 .small-sologan{
     color: var(--text-normal);
-    font-size: 3rem;
+    font-size: 3vw;
     font-weight: 300;
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
 }
@@ -286,6 +288,7 @@ input.header-input{
     text-decoration: underline;
     text-decoration-color: var(--text-em-color);
     text-decoration-thickness: 0.2rem;
+    color: var(--text-em-color) !important;
 }
 
 .load-more{
@@ -323,6 +326,11 @@ input.header-input{
     font-size: calc(0.4rem + 1.1vw);
 }
 
+#footer{
+    background-color: var(--bg-color);
+    padding-top: 10rem;
+}
+
 #sub-area input, #footer input{
     padding: 2rem;
     outline: none;
@@ -354,6 +362,13 @@ input.header-input{
 
 #footer .sub-sologan{
     font-weight: 100;
+}
+
+#footer .footer-description{
+    font-size: calc(1rem + 1vw);
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+
 }
 
 .privacy{
@@ -593,4 +608,26 @@ input.header-input{
     background-image: url(https://dq51jve9h21d4.cloudfront.net/sites/default/files/styles/featured_article_thumbnail/public/articles/545/xblooming_v18-02.png,qitok=oitt9x-6.pagespeed.ic.cpJO0rt_2v.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* responsive menu */
+
+.bi-list{
+    font-size: calc(2rem + 2vw);
+    color: var(--text-em-color);
+}
+
+.dropdown{
+    text-transform: uppercase;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: var(--text-normal);
+}
+
+.dropdown .btn.show{
+    border-color: var(--text-em-color);
+}
+
+.dropdown-menu{
+    background-color: var(--bg-color);
+    border-color: var(--text-em-color);
 }

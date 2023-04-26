@@ -1,17 +1,9 @@
 $(document).ready(function(){
 
     $(".advertising-container").click(function(){
-        $("#advertising-tab").fadeIn("1000");
-    })
-
-    $("#exit").click(function(){
-        $("#advertising-tab").fadeOut("1000", function(){
-            $(this).fadeOut("1000");
+        $("#advertising-tab").animate({
+            width: 'toggle'
         })
-    })
-
-    $(".menu-responsive").click(function(){
-        $(".menu-mini").show();
     })
 
 })
