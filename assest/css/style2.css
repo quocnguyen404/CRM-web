@@ -13,6 +13,7 @@
     --bg-sub: #eaeff6;
     --text-footer: #284b44;
     --bg-digital: #ffdbcf;
+    --bg-btn: #ff4434;
 }
 
 *{
@@ -651,8 +652,58 @@ input.header-input{
 
 #content-crmsoftware .title{
     font-family: 'Playfair Display', serif;
-    font-size: calc(1.5rem + 2vw);
+    font-size: calc(1.7rem + 2vw);
     color: var(--text-normal);
     font-weight: 100;
+}
+
+#content-crmsoftware .paragraph-container{
+    padding-left: 4vw;
+}
+
+#content-crmsoftware .paragraph{
+    font-size: 2vw;
+    color: var(--text-normal);
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif !important;
+    font-weight: 100;
+}
+
+#content-crmsoftware .software-area{
+    background-color: var(--bg-area);
+    color: var(--text-normal);
+}
+
+#content-crmsoftware .software-area .title{
+    font-size: 1.1vw !important;
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+}
+
+#content-crmsoftware .software-area .asoftware{
+    background-color: var(--bg-white);
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+}
+
+#content-crmsoftware .software-area .asoftware:hover{
+    border: solid var(--text-em-color) 0.1rem;
+}
+
+#content-crmsoftware .software-area .btn{
+    background-color: var(--bg-btn);
+    color: var(--bg-white);
+    border: none;
+    border-radius: 0;
+    font-weight: 399;
+}
+
+#content-crmsoftware .software-area .btn:active{
+    border: none;
+}
+
+#content-crmsoftware .software-area .software-title{
+    font-size: 2vw;
+}
+
+#content-crmsoftware .software-area .software-text{
+    font-size: 1.2vw;
 }
 
