@@ -684,7 +684,7 @@ input.header-input{
 }
 
 #content-crmsoftware .software-area .asoftware:hover{
-    border: solid var(--text-em-color) 0.1rem;
+    outline: solid var(--text-em-color) 0.1rem;
 }
 
 #content-crmsoftware .software-area .btn{
@@ -700,7 +700,7 @@ input.header-input{
 }
 
 #content-crmsoftware .software-area .software-title{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 #content-crmsoftware .software-area .software-text{
