@@ -14,6 +14,9 @@
     --text-footer: #284b44;
     --bg-digital: #ffdbcf;
     --bg-btn: #ff4434;
+    --bg-ani1: #f6ecea;
+    --bg-ani2: #eaeff6;
+    --bg-ani3: #e3f0f0;
 }
 
 *{
@@ -251,7 +254,7 @@ input.header-input{
 .card{
     background-color: var(--bg-color);
     border: none;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .card:hover{
@@ -269,7 +272,7 @@ input.header-input{
 
 .card-text{
     text-transform: uppercase;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     font-weight: 500;
     text-align: center;
     color: var(--text-normal);
@@ -308,7 +311,7 @@ input.header-input{
 }
 
 #sub-area{
-    background-color: var(--bg-sub);
+    background-color: var(--bg-color);
 }
 
 #sub-area .title{
@@ -326,6 +329,39 @@ input.header-input{
     font-weight: 399;
     font-size: calc(0.4rem + 1.1vw);
 }
+
+#animation .introduction-animation{
+    font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
+}
+
+#animation .introduction-animation .intro{
+    font-weight: 500;
+    font-size: calc(0.5rem + 1vw);
+}
+
+#animation .introduction-animation .animation-title{
+    font-family: 'Playfair Display', serif;
+    font-size: calc(.5rem + 2vw);
+    font-weight: 300;
+}
+
+#animation .introduction-animation .animation-text{
+    font-size: calc(.5rem + 1vw);
+    font-weight: 10;
+}
+
+#animation .animation1{
+    background-color: var(--bg-ani1); 
+}
+
+#animation .animation2{
+    background-color: var(--bg-ani2);
+}
+
+#animation .animation3{
+    background-color: var(--bg-ani3);
+}
+
 
 #footer{
     background-color: var(--bg-color);
@@ -353,7 +389,7 @@ input.header-input{
 
 #footer .footer-menu{
     text-transform: uppercase;
-    
+    font-size: calc(0.5rem + 1vw);
 }
 
 .footer-menu:hover{
@@ -479,13 +515,13 @@ input.header-input{
 
 #news .description-title{
     font-family: 'Playfair Display', serif;
-    font-size: 3.4vw;
+    font-size: 2vw;
     font-weight: 500;
 }
 
 #news .description p{
     font-family: 'Brandon Grotesque',Calibri,Helvetica,Arial,sans-serif;
-    font-size: 2vw;
+    font-size: 1.2vw;
     font-weight: 100;
     color: var(--text-normal);
 }
@@ -534,7 +570,7 @@ input.header-input{
 
 #sliding .card .card-body .card-title{
     font-family: 'Playfair Display', serif;
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 
 #sliding .card .card-body .card-text{
@@ -543,7 +579,7 @@ input.header-input{
     text-transform: none;
     background-color: transparent;
     text-align: start;
-    font-size: 2vw;
+    font-size: 1.2vw;
 }
 
 #sliding .card .card-body .card-text:hover{
