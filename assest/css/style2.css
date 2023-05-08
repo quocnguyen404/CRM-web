@@ -310,6 +310,10 @@ input.header-input{
     cursor: pointer;
 }
 
+.load-more-content1, .load-more-content2, .load-more-content3{
+    display: none;
+}
+
 #sub-area{
     background-color: var(--bg-color);
 }
